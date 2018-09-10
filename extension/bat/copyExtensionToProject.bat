@@ -1,0 +1,1 @@
+copy ..\out\Location.ane "..\..\test\ane\Location.ane"

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<extension xmlns="http://ns.adobe.com/air/extension/3.1">
+	<id>ru.menu4me.extensions.Location</id>
+	<versionNumber>0.0.1</versionNumber>
+	<platforms>
+		<platform name="Android-ARM">
+			<applicationDeployment>
+				<nativeLibrary>libLocation.jar</nativeLibrary>
+				<initializer>ru.menu4me.extensions.location.Extension</initializer>
+				<finalizer>ru.menu4me.extensions.location.Extension</finalizer>
+			</applicationDeployment>
+		</platform>
+	</platforms>
+</extension>
